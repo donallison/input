@@ -1,4 +1,4 @@
-module input
+module github.com/donallison/input
 
 go 1.20
 
