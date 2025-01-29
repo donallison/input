@@ -21,7 +21,7 @@ func (d *Data) GetInput() (string, error) {
 		// Mask input
 		for d.Value == "" {
 			var bs []byte
-			fmt.Print(d.Prompt)
+			fmt.Print(d.Prompt + ": ")
 			bs, err := term.ReadPassword(int(syscall.Stdin))
 			if err != nil {
 				return "", err

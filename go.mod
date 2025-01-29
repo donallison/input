@@ -1,7 +1,7 @@
 module github.com/donallison/input
 
-go 1.20
+go 1.23
 
-require golang.org/x/term v0.8.0
+require golang.org/x/term v0.25.0
 
-require golang.org/x/sys v0.8.0 // indirect
+require golang.org/x/sys v0.26.0 // indirect
